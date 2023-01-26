@@ -26,24 +26,8 @@ class Solution{
                 l++;
             }
         }
-        while(i<n)
-        {
-            if(l==k)
-            {
-            return arr1[i];
-            }
-            i++;
-            l++;
-        }
-         while(j<m)
-        {
-           if(l==k)
-            {
-            return arr2[j];
-            }
-            j++;
-            l++;
-        }
+         if(i<n)   return arr1[k+i-l];
+         return arr2[k+j-l];
     }
 };
 
