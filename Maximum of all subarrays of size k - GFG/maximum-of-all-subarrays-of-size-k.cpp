@@ -28,7 +28,7 @@ class Solution
             m.erase(m.lower_bound(arr[i-k]));
             v.push_back(*m.begin());
         }
-        return v;
+            return v;
     }
 };
 
