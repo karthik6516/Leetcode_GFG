@@ -10,7 +10,7 @@ public:
         }
         for(int i=0;i<gifts.size();i++)
         {
-            a+=gifts[i];
+               a+=gifts[i];
         }
         return a;
     }
