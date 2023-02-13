@@ -15,7 +15,7 @@ public:
         int k=1;
         for(int i=1;i<n;i++)
         {
-            if(a[i-1]!=a[i])
+              if(a[i-1]!=a[i])
             {
                 a[k]=a[i];
                 k++;
