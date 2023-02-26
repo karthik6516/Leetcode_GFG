@@ -11,6 +11,6 @@ public:
             if(v[y]==v[j]*3)  j++;
             if(v[y]==v[k]*5)  k++;
         }
-        return v[n-1];
+        return    v[n-1];
     }
 };
