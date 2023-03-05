@@ -16,8 +16,9 @@ public:
         long long q=0,w=0;
         q=__gcd(L,B);
         w=(L*B)/(q*q);
-        v.push_back(w);
-        v.push_back(q);
+         v.push_back(w);
+         v.push_back(q);
+        
         return v;
     }
 };
