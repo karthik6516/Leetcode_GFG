@@ -25,9 +25,9 @@ class Solution{
         }
         else if(arr[l]+arr[r]>sum)  r--;
         else
-        l++;
+           l++;
     }
-        return ((cnt!=0)?cnt:-1);
+           return ((cnt!=0)?cnt:-1);
     }
 };
 
