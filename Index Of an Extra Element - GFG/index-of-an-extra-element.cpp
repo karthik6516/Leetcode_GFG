@@ -17,14 +17,8 @@ class Solution{
                 i++;
                 j++;
             }
-            else if(a[i]<b[j])  
-            {
-                return i;
-            }
-            else 
-            {
-                return j;
-            }
+            else
+            return i;
         }
         return 0;
     }
