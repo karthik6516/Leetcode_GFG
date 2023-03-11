@@ -7,9 +7,12 @@ public:
         {
             a[nums[i]]++;
         }
-        for(int i=0;i<101;i++)
+        
+        
+             for(int i=0;i<101;i++)
         {
-            if(a[i]==1)  sum+=i;
+            if(a[i]==1)
+                sum+=i;
         }
              return sum;
     }
