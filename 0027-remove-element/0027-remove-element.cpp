@@ -6,7 +6,9 @@ public:
         {
             if(nums[i]!=val)  v.push_back(nums[i]);
         }
-        nums.clear();
+       
+        
+           nums.clear();
         for(int i=0;i<v.size();i++)
         {
             nums.push_back(v[i]);
