@@ -16,11 +16,16 @@ class Solution{
                 v.push_back(arr[i]);
             i++;    
         }
-        while(j<n)
+        
+        
+        
+           while(j<n)
         {
             if(arr[j]<0)  v.push_back(arr[j]);
             j++;
         }
+        
+        
         for(int k=0;k<n;k++)
         {
             arr[k]=v[k];
