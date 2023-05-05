@@ -10,7 +10,7 @@ using namespace std;
 class Solution{
   public:
     int minRemove(int a[], int b[], int n, int m) {
-        int maxia=0,maxib=0,maxi=0,sum=0;
+         int maxia=0,maxib=0,maxi=0,sum=0;
         for(int i=0;i<n;i++)
         {
             maxia=max(maxia,a[i]);
